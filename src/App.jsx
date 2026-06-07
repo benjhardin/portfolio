@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import Nav from './components/Nav'
+import ScrollToTop from './components/ScrollToTop'
 import Hero from './components/Hero'
 import About from './components/About'
 import Projects from './components/Projects'
@@ -32,6 +33,7 @@ function Home() {
 export default function App() {
   return (
     <>
+      <ScrollToTop />
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />

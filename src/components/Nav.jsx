@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
 import styles from './Nav.module.css'
 import Logo from './Logo'
 
@@ -7,6 +8,9 @@ const links = ['About', 'Projects', 'Experience', 'Speaking', 'Articles', 'Certi
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false)
   const [open, setOpen] = useState(false)
+  const { pathname } = useLocation()
+  const isHome = pathname === '/'
+  const href = (section) => isHome ? `#${section}` : `/#${section}`
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40)
@@ -24,13 +28,13 @@ export default function Nav() {
   return (
     <>
       <nav className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
-        <a href="#hero" className={styles.logo}><Logo size={38} /></a>
+        <a href={isHome ? '#hero' : '/'} className={styles.logo}><Logo size={38} /></a>
 
         {/* Desktop links */}
         <ul className={styles.links}>
           {links.map(l => (
             <li key={l}>
-              <a href={`#${l.toLowerCase()}`}>{l}</a>
+              <a href={href(l.toLowerCase())}>{l}</a>
             </li>
           ))}
         </ul>
@@ -50,7 +54,7 @@ export default function Nav() {
         <ul className={styles.drawerLinks}>
           {links.map(l => (
             <li key={l}>
-              <a href={`#${l.toLowerCase()}`} onClick={close}>{l}</a>
+              <a href={href(l.toLowerCase())} onClick={close}>{l}</a>
             </li>
           ))}
         </ul>
