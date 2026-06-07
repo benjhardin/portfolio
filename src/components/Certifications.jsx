@@ -22,12 +22,12 @@ const certs = [
     url: 'https://achieve.snowflake.com/568f9192-36ba-4544-b768-9738e24aeeaf',
   },
   {
-    name: 'Sigma Delivery Partner',
+    name: 'Sigma Delivery Partner Certified',
     issuer: 'Sigma Computing',
     status: 'earned',
     dates: 'Apr 2024 — Apr 2025',
     badgeImage: '/badge-sigma.png',
-    description: 'Covers delivering production-grade analytics and data applications in Sigma, including embedding, data modeling, and governance.',
+    description: 'Demonstrates completion of hands-on Sigma training and building an end-to-end Sigma solution. Covers Sigma Architecture, Data Modeling, Data Visualization, Metrics, Governance, and architecting scalable solutions.',
     url: 'https://www.credly.com/earner/earned/badge/1264f0d1-4adc-402b-a455-1144464ee592',
   },
   {
