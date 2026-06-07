@@ -1,0 +1,29 @@
+import Nav from './components/Nav'
+import Hero from './components/Hero'
+import About from './components/About'
+import Projects from './components/Projects'
+import Experience from './components/Experience'
+import Speaking from './components/Speaking'
+import Articles from './components/Articles'
+import Certifications from './components/Certifications'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
+
+export default function App() {
+  return (
+    <>
+      <Nav />
+      <main>
+        <Hero />
+        <About />
+        <Projects />
+        <Experience />
+        <Speaking />
+        <Articles />
+        <Certifications />
+        <Contact />
+      </main>
+      <Footer />
+    </>
+  )
+}

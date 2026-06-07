@@ -1,0 +1,142 @@
+.section {
+  padding: 6rem 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.label {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent-light);
+  margin-bottom: 0.75rem;
+}
+
+.heading {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  margin-bottom: 3rem;
+}
+
+.talks {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 4rem;
+  padding: 3rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-light));
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.eventWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.event {
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--text);
+  letter-spacing: -0.02em;
+}
+
+.session {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.location {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.coSpeaker {
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.title {
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: var(--text);
+  line-height: 1.25;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.highlights {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.highlights li {
+  font-size: 0.825rem;
+  color: var(--text);
+  padding: 0.5rem 0.75rem;
+  background: rgba(41, 181, 232, 0.08);
+  border: 1px solid rgba(41, 181, 232, 0.2);
+  border-radius: 6px;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .card {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .highlights {
+    grid-template-columns: 1fr;
+  }
+}

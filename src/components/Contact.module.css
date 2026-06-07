@@ -1,0 +1,72 @@
+.section {
+  padding: 8rem 1.5rem;
+  border-top: 1px solid var(--border);
+  text-align: center;
+}
+
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent-light);
+}
+
+.heading {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+}
+
+.sub {
+  font-size: 1rem;
+  color: var(--muted);
+  line-height: 1.7;
+  max-width: 480px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 8px;
+  letter-spacing: 0.02em;
+  transition: background 0.2s, transform 0.15s;
+  margin-top: 0.5rem;
+}
+
+.btn:hover {
+  background: #1a9fd4;
+  transform: translateY(-2px);
+}
+
+.socials {
+  display: flex;
+  gap: 2rem;
+  margin-top: 0.5rem;
+}
+
+.social {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--muted);
+  letter-spacing: 0.04em;
+  transition: color 0.2s;
+}
+
+.social:hover {
+  color: var(--accent-light);
+}
