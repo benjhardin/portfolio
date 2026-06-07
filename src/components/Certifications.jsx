@@ -51,7 +51,7 @@ const certs = [
     issuer: 'dbt Labs',
     status: 'in-progress',
     badgeImage: '/badge-dbt-architect.webp',
-    description: 'Validates advanced expertise in designing scalable dbt project architecture, performance optimization, and enterprise data modeling.',
+    description: 'Assesses ability to design secure, scalable dbt implementations — covering environment orchestration, role-based access control, integrations with other tools, and collaborative development workflows aligned with best practices.',
     url: null,
   },
 ]
