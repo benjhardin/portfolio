@@ -17,7 +17,7 @@ const certs = [
     issuer: 'Snowflake',
     status: 'earned',
     dates: 'Feb 2024 — Feb 2026',
-    badgeImage: '/badge-snowpro-core.png',
+    badgeImage: '/badge-snowpro-core.webp',
     description: 'Demonstrates core competency in Snowflake data platform architecture, data loading, performance optimization, and security.',
     url: 'https://achieve.snowflake.com/568f9192-36ba-4544-b768-9738e24aeeaf',
   },
