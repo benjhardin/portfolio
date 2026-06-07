@@ -31,10 +31,19 @@ const certs = [
     url: 'https://www.credly.com/earner/earned/badge/1264f0d1-4adc-402b-a455-1144464ee592',
   },
   {
-    name: 'dbt Certification',
+    name: 'dbt Developer Certification',
     issuer: 'dbt Labs',
     status: 'in-progress',
+    badgeImage: '/badge-dbt-developer.webp',
     description: 'Validates proficiency in building, testing, and deploying analytics engineering workflows using dbt Core and dbt Cloud.',
+    url: null,
+  },
+  {
+    name: 'dbt Architect Certification',
+    issuer: 'dbt Labs',
+    status: 'in-progress',
+    badgeImage: '/badge-dbt-architect.webp',
+    description: 'Validates advanced expertise in designing scalable dbt project architecture, performance optimization, and enterprise data modeling.',
     url: null,
   },
 ]
