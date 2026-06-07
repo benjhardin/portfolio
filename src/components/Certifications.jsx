@@ -31,11 +31,11 @@ const certs = [
     url: 'https://www.credly.com/earner/earned/badge/1264f0d1-4adc-402b-a455-1144464ee592',
   },
   {
-    name: 'Sigma Architect',
+    name: 'Sigma Architecture Certified Specialist',
     issuer: 'Sigma Computing',
     status: 'in-progress',
     badgeImage: '/badge-sigma-architect.png',
-    description: 'Validates advanced expertise in designing and architecting enterprise-grade Sigma deployments, data modeling, and scalable analytics solutions.',
+    description: 'Awarded for completing the Sigma Architecture 2-Day Workshop. Certifies expertise in designing, managing, and embedding Sigma solutions — including cloud data warehouse integration, security, performance optimization, and DevOps workflows.',
     url: null,
   },
   {
