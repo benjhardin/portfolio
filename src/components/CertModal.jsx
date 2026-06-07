@@ -20,7 +20,9 @@ export default function CertModal({ cert, onClose }) {
         <button className={styles.close} onClick={onClose} aria-label="Close">✕</button>
 
         <div className={styles.badge}>
-          <BadgeIcon issuer={cert.issuer} />
+          {cert.badgeImage
+            ? <img src={cert.badgeImage} alt={cert.name} className={styles.badgeImg} />
+            : <BadgeIcon issuer={cert.issuer} />}
         </div>
 
         <div className={styles.body}>

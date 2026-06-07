@@ -72,6 +72,13 @@
   gap: 0.5rem;
 }
 
+.badgeThumb {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
 .issuer {
   font-size: 0.7rem;
   font-weight: 700;

@@ -8,6 +8,7 @@ const certs = [
     issuer: 'Snowflake',
     status: 'earned',
     dates: 'Jan 2026 — Jan 2028',
+    badgeImage: '/badge-snowpro-genai.png',
     description: 'Validates expertise in building and deploying generative AI solutions natively within Snowflake using Cortex AI and related tooling.',
     url: 'https://achieve.snowflake.com/9ca7d802-e16e-456b-8893-3ea42812de81',
   },
@@ -16,6 +17,7 @@ const certs = [
     issuer: 'Snowflake',
     status: 'earned',
     dates: 'Feb 2024 — Feb 2026',
+    badgeImage: '/badge-snowpro-core.png',
     description: 'Demonstrates core competency in Snowflake data platform architecture, data loading, performance optimization, and security.',
     url: 'https://achieve.snowflake.com/568f9192-36ba-4544-b768-9738e24aeeaf',
   },
@@ -24,6 +26,7 @@ const certs = [
     issuer: 'Sigma Computing',
     status: 'earned',
     dates: 'Apr 2024 — Apr 2025',
+    badgeImage: '/badge-sigma.png',
     description: 'Covers delivering production-grade analytics and data applications in Sigma, including embedding, data modeling, and governance.',
     url: 'https://www.credly.com/earner/earned/badge/1264f0d1-4adc-402b-a455-1144464ee592',
   },
@@ -49,6 +52,7 @@ export default function Certifications() {
             <button key={i} className={`${styles.card} ${c.status === 'in-progress' ? styles.inProgress : ''}`} onClick={() => setSelected(c)}>
               <div className={styles.cardTop}>
                 <span className={styles.issuer}>{c.issuer}</span>
+                {c.badgeImage && <img src={c.badgeImage} alt={c.name} className={styles.badgeThumb} />}
                 {c.status === 'in-progress'
                   ? <span className={styles.badgeProgress}>In Progress</span>
                   : <span className={styles.badgeEarned}>Earned</span>
