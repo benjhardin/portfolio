@@ -34,14 +34,6 @@ const certs = [
     description: 'Validates proficiency in building, testing, and deploying analytics engineering workflows using dbt Core and dbt Cloud.',
     url: null,
   },
-  {
-    name: 'Associate Human Factors Professional (AEP)',
-    issuer: 'HFES',
-    status: 'earned',
-    dates: 'Dec 2023 — Dec 2029',
-    description: 'Recognizes foundational knowledge in human factors and ergonomics — applied throughout medical device and AI product design.',
-    url: 'https://bcpe.org/verify-a-certification/',
-  },
 ]
 
 export default function Certifications() {
