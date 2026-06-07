@@ -1,3 +1,4 @@
+import { Routes, Route } from 'react-router-dom'
 import Nav from './components/Nav'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -8,11 +9,11 @@ import Articles from './components/Articles'
 import Certifications from './components/Certifications'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import ProjectPage from './pages/ProjectPage'
 
-export default function App() {
+function Home() {
   return (
     <>
-      <Nav />
       <main>
         <Hero />
         <About />
@@ -24,6 +25,18 @@ export default function App() {
         <Contact />
       </main>
       <Footer />
+    </>
+  )
+}
+
+export default function App() {
+  return (
+    <>
+      <Nav />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects/:id" element={<ProjectPage />} />
+      </Routes>
     </>
   )
 }
