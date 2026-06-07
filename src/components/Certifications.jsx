@@ -43,7 +43,7 @@ const certs = [
     issuer: 'dbt Labs',
     status: 'in-progress',
     badgeImage: '/badge-dbt-developer.webp',
-    description: 'Validates proficiency in building, testing, and deploying analytics engineering workflows using dbt Core and dbt Cloud.',
+    description: 'Industry-recognized certification for analytics engineers. Validates hands-on dbt skills across modeling, testing, and deployment — demonstrating the expertise that defines a modern analytics engineering practice.',
     url: null,
   },
   {
