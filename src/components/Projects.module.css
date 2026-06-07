@@ -43,6 +43,11 @@
   background: var(--surface);
   transition: background 0.2s;
   cursor: pointer;
+  border: none;
+  text-align: left;
+  color: inherit;
+  font-family: inherit;
+  width: 100%;
 }
 
 .card:hover {
