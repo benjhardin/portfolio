@@ -31,6 +31,14 @@ const certs = [
     url: 'https://www.credly.com/earner/earned/badge/1264f0d1-4adc-402b-a455-1144464ee592',
   },
   {
+    name: 'Sigma Architect',
+    issuer: 'Sigma Computing',
+    status: 'in-progress',
+    badgeImage: '/badge-sigma-architect.png',
+    description: 'Validates advanced expertise in designing and architecting enterprise-grade Sigma deployments, data modeling, and scalable analytics solutions.',
+    url: null,
+  },
+  {
     name: 'dbt Developer Certification',
     issuer: 'dbt Labs',
     status: 'in-progress',
