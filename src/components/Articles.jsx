@@ -31,6 +31,13 @@ const articles = [
     url: 'https://hakkoda.io/resources/regulating-medical-devices/',
   },
   {
+    title: 'Making Illinois: The Shop at Siebel Center for Design',
+    publication: 'STORIED — UIUC',
+    date: 'Oct 2023',
+    description: 'Featured in UIUC\'s STORIED video series, demonstrating medical device prototyping and repair work at The Shop — showcasing how hands-on making and human-centered design intersect in health technology.',
+    url: 'https://archive.storied.illinois.edu/the-shop/',
+  },
+  {
     title: 'Getting the Jump on Innovation',
     publication: 'Siebel Center for Design',
     date: 'Nov 2023',
