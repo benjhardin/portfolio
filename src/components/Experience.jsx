@@ -19,6 +19,7 @@ const jobs = [
       'Engineered a fuzzy-matching and geospatial resolution pipeline that increased client system match accuracy from 5% to 95%, eliminating $4M in annual regulatory fines.',
       'Applied LLMs to classify FDA MAUDE reports by device and error type, increasing triage speed by 300×.',
       'Delivered LLM and AI workshops to 95+ employees, accelerating internal adoption of AI classification workflows.',
+      'Worked remotely across the US and lived in Lisbon, Portugal for 6 months — bringing an international perspective to every engagement.',
     ],
   },
   {

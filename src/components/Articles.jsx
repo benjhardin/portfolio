@@ -30,6 +30,20 @@ const articles = [
     description: 'An examination of the FDA\'s MAUDE database and how improving data accessibility, relevancy, and usability could accelerate post-market surveillance and patient safety.',
     url: 'https://hakkoda.io/resources/regulating-medical-devices/',
   },
+  {
+    title: 'Getting the Jump on Innovation',
+    publication: 'Siebel Center for Design',
+    date: 'Nov 2023',
+    description: 'Featured profile on the fusion of human-centered design and innovation in medical device development — covering CPoRt, StrideFree, and applying human factors engineering to create solutions grounded in real user needs.',
+    url: 'https://scd.illinois.edu',
+  },
+  {
+    title: 'UX Pulse Check',
+    publication: 'Koru UX Design',
+    date: 'Aug 2025',
+    description: 'Featured in Koru UX Design\'s Pulse Check series, sharing perspectives on the intersection of data architecture, AI, and human-centered design.',
+    url: '#',
+  },
 ]
 
 export default function Articles() {

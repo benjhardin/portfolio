@@ -30,7 +30,9 @@ export default function About() {
             <p className={styles.bio}>
               My background spans end-to-end data platform design, production LLM systems, and
               hands-on AI engineering. I bring a founder's mindset to every engagement: I care deeply
-              about whether the thing actually works in the real world, not just in a demo.
+              about whether the thing actually works in the real world, not just in a demo. I've worked
+              remotely across the US and lived in Lisbon, Portugal — which has shaped how I think about
+              collaboration, perspective, and building things that scale beyond borders.
             </p>
             <div className={styles.skillsWrap}>
               <p className={styles.skillsLabel}>Technologies</p>
