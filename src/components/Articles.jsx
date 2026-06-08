@@ -37,13 +37,6 @@ const articles = [
     description: 'Featured profile on the fusion of human-centered design and innovation in medical device development — covering CPoRt, StrideFree, and applying human factors engineering to create solutions grounded in real user needs.',
     url: 'https://scd.illinois.edu',
   },
-  {
-    title: 'UX Pulse Check',
-    publication: 'Koru UX Design',
-    date: 'Aug 2025',
-    description: 'Featured in Koru UX Design\'s Pulse Check series, sharing perspectives on the intersection of data architecture, AI, and human-centered design.',
-    url: '#',
-  },
 ]
 
 export default function Articles() {
