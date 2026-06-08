@@ -38,6 +38,13 @@ const articles = [
     url: 'https://archive.storied.illinois.edu/the-shop/',
   },
   {
+    title: 'UX Pulse Check',
+    publication: 'Koru UX Design',
+    date: 'Aug 2025',
+    description: 'Featured in Koru UX Design\'s Pulse Check series, sharing perspectives on the intersection of data architecture, AI, and human-centered design.',
+    url: 'https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7361862682242637824',
+  },
+  {
     title: 'Getting the Jump on Innovation',
     publication: 'Siebel Center for Design',
     date: 'Nov 2023',
