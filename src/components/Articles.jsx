@@ -35,7 +35,7 @@ const articles = [
     publication: 'Siebel Center for Design',
     date: 'Nov 2023',
     description: 'Featured profile on the fusion of human-centered design and innovation in medical device development — covering CPoRt, StrideFree, and applying human factors engineering to create solutions grounded in real user needs.',
-    url: 'https://scd.illinois.edu',
+    url: 'https://designcenter.illinois.edu/happening/Stories/BenHardinatSCD',
   },
 ]
 
